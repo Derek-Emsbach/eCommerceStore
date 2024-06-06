@@ -1,8 +1,12 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
+function getSalesData() {
+    
+}
+
 export default function AdminDashboard() {
     return <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-        <Card>
+        {/* <Card>
             <CardHeader>
                 <CardTitle>Sales</CardTitle>
                 <CardDescription>desc</CardDescription>
@@ -10,7 +14,8 @@ export default function AdminDashboard() {
             <CardContent>
                 <p>text</p>
             </CardContent>
-        </Card>
+        </Card> */}
+        <DashboardCard title="Sales" subtitle="Test" body="body"/>
     </div>
 }
 
